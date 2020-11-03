@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "ESNext",
+      "allowJs": true,
+      "jsx": "react",
+      "declaration": true,
+      "declarationDir": "./types",
+      "sourceMap": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+    },
+    "include": ["./src"]
+  }

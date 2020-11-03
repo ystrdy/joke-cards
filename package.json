@@ -1,0 +1,44 @@
+{
+  "name": "joke-cards",
+  "version": "1.0.0",
+  "description": "基于react的笑话卡片列表组件",
+  "main": "lib/joke-cards.js",
+  "module": "es/joke-cards.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "prepare": "install-peers",
+    "start": "rollup -c -w",
+    "build": "rimraf es lib types && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "es",
+    "lib",
+    "src",
+    "types"
+  ],
+  "author": "ystrdy<xu1930@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.55",
+    "install-peers-cli": "^2.2.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.32.1",
+    "rollup-plugin-filesize": "^9.0.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.28.0",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "react-use": "^15.3.4",
+    "react-viewer": "^3.2.2"
+  },
+  "peerDependencies": {
+    "antd": "^4.8.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
